@@ -7,8 +7,6 @@ function NavBar() {
         <>
             <h1>Bao is cool</h1>
             <h2>Cheese</h2>
-
-
         </>
     )
 }
