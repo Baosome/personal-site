@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "pd": "npm run build",
-    "de": "npx gh-pages -d dist"
+    "de": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.0.0",
