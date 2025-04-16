@@ -1,15 +1,15 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './NavBar.css'
 
 function NavBar() {
 
     return (
         <>
-            <div className={"NavBar"}>
-                <a href={"/"}>.Home()</a>
-                <a href={"/"}>.Resume()</a>
-            </div>
+            <div className="NavBar">
+                <div><a href="/" className="HomeBtn">.HOME()</a></div>
+                <div><a href="/" className="HomeBtn">.RESUME()</a></div>
 
+            </div>
         </>
     )
 }
