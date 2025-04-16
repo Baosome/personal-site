@@ -7,5 +7,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
       <NavBar></NavBar>
       <GeneralInfo></GeneralInfo>
+
   </StrictMode>,
 )
