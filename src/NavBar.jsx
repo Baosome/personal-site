@@ -5,8 +5,11 @@ function NavBar() {
 
     return (
         <>
-            <h1>Bao is cool</h1>
-            <h2>Cheese</h2>
+            <div className={"NavBar"}>
+                <a href={"/"}>.Home()</a>
+                <a href={"/"}>.Resume()</a>
+            </div>
+
         </>
     )
 }

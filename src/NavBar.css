@@ -13,15 +13,19 @@
 }
 
 
+@font-face {
+    font-family: "Action Man Shaded";
+    src: url('./assets/myFont/Action Man Shaded.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
     font-family: "Action Man", serif;
 
-    line-height: 1.5;
-    font-weight: 400;
-
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
+    background-color: #F2F2F2;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -29,20 +33,22 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    height: auto;
+}
+
 a {
-    font-weight: 500;
-    color: #646cff;
-    text-decoration: inherit;
-}
-a:hover {
-    color: #535bf2;
-}
-
-h1 {
-    font-size: 3.2em;
-    line-height: 1.1;
+    font-size: 2rem;
     font-family: "Action Man Bold";
+    color: #3E3E3E;
+    text-decoration: none;
+}
 
+a:hover{
+    color: #000000;
 }
 
 

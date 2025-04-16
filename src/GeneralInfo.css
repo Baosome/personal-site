@@ -1,0 +1,45 @@
+
+.Main{
+    display: flex;
+}
+
+h1 {
+    font-family: "Action Man Shaded";
+    color: #3E3E3E;
+
+    font-size: 5rem;
+    margin: 0 0;
+}
+
+h2 {
+
+    font-family: "Action Man Bold";
+    color: #3E3E3E;
+    margin: 0 0;
+}
+
+h3 {
+
+    font-family: "Action Man";
+    color: #3E3E3E;
+    margin: 0 0;
+}
+h4 {
+    font-weight: 300;
+    font-family: "Action Man";
+    color: #3E3E3E;
+    margin: 0 0;
+}
+
+/*NAME MAIN*/
+.NameMain {
+    display: grid;
+    grid-template-columns: 20% 100%;
+    align-items: end;
+    height: fit-content;
+    margin-left: 5rem;
+}
+
+.GeneralInfoMain {
+    display: grid;
+}
