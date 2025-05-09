@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './GeneralInfo.css'
+import linkedinLogo from './assets/linkedin.svg'
+import githubLogo from './assets/github.svg'
+import mailLogo from './assets/mail.svg'
 
 function GeneralInfo() {
 
@@ -18,14 +21,14 @@ function GeneralInfo() {
                 </div>
                 <div className="LinkMain">
                     <ol>
-                        <li><a href=""><img src="" alt="LinkedIn"/></a></li>
-                        <li><a href=""><img src="" alt="GitHub"/></a></li>
-                        <li><a href=""><img src="" alt="Mail"/></a></li>
+                        <li><a href=""><img src={linkedinLogo} alt=""/></a></li>
+                        <li><a href=""><img src={githubLogo} alt=""/></a></li>
+                        <li><a href=""><img src={mailLogo} alt=""/></a></li>
                     </ol>
                 </div>
-                <div className="PhotoMain">
-                    <img src="" alt="Photo"/>
-                </div>
+                {/*<div className="PhotoMain">*/}
+                {/*    <img src="" alt="Photo"/>*/}
+                {/*</div>*/}
             </div>
             <hr/>
 

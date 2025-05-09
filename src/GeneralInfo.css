@@ -1,6 +1,7 @@
 
 .Main{
     display: flex;
+    justify-content: space-between;
 }
 
 h1 {
@@ -42,4 +43,15 @@ h4 {
 
 .GeneralInfoMain {
     display: grid;
+}
+
+.LinkMain > ol {
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.LinkMain > ol > li > a > img {
+    width: 3rem;
+    height: auto;
 }
