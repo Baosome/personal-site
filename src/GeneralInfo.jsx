@@ -8,30 +8,29 @@ function GeneralInfo() {
 
     return (
         <>
-            <div className="Main">
-                <div className="NameMain">
-                    <h2>Huy-</h2>
-                    <h1>Bao</h1>
-                    <div><h2>Trang</h2></div>
-                </div>
+            <section id = "GeneralInfo">
                 <div className="GeneralInfoMain">
-                    <h3>Software Engineer | Cyber Analysis</h3>
-                    <h3>Seattle, Washington</h3>
-                    <h4>Active Security Clearance</h4>
+                    <div className="NameMain">
+                        <h2>Huy-</h2>
+                        <h1>Bao</h1>
+                        <div><h2>Trang</h2></div>
+                    </div>
+                    <div className="Description">
+                        <h3>Software Engineer | Cyber Analysis</h3>
+                        <h3>Seattle, Washington</h3>
+                        <h4>Active Security Clearance</h4>
+                    </div>
+                    <div className="LinkMain">
+                        <a href=""><img src={linkedinLogo} alt=""/></a>
+                        <a href=""><img src={githubLogo} alt=""/></a>
+                        <a href=""><img src={mailLogo} alt=""/></a>
+                    </div>
+                    {/*<div className="PhotoMain">*/}
+                    {/*    <img src="" alt="Photo"/>*/}
+                    {/*</div>*/}
                 </div>
-                <div className="LinkMain">
-                    <ol>
-                        <li><a href=""><img src={linkedinLogo} alt=""/></a></li>
-                        <li><a href=""><img src={githubLogo} alt=""/></a></li>
-                        <li><a href=""><img src={mailLogo} alt=""/></a></li>
-                    </ol>
-                </div>
-                {/*<div className="PhotoMain">*/}
-                {/*    <img src="" alt="Photo"/>*/}
-                {/*</div>*/}
-            </div>
-            <hr/>
-
+                <hr/>
+            </section>
         </>
     )
 }

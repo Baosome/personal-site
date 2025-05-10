@@ -1,0 +1,22 @@
+
+.TabMain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: min(4rem);
+}
+
+.TabLink > h1 {
+    font-family: "Action Man Shaded";
+    color: #3E3E3E;
+    font-size: 4rem;
+    margin: 0 0;
+    transition: .025s ease-out;
+}
+
+/*MAIN*/
+.TabLink > h1:hover{
+    color: #3E3E3E;
+    font-family: "Action Man Bold";
+    font-size: 4.4rem;
+}
