@@ -37,7 +37,7 @@
     display: flex;
     justify-content: space-between;
     position: sticky;
-    height: min(2rem);
+    height: min(5rem);
 }
 
 a {
