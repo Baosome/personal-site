@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './GeneralInfo.css'
-import linkedinLogo from './assets/linkedin.svg'
-import githubLogo from './assets/github.svg'
-import mailLogo from './assets/mail.svg'
+import linkedinLogo from '../assets/linkedin.svg'
+import githubLogo from '../assets/github.svg'
+import mailLogo from '../assets/mail.svg'
 
 function GeneralInfo() {
 
