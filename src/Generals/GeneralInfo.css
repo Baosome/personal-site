@@ -1,37 +1,42 @@
 
+
 .GeneralInfoMain{
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     flex-wrap: wrap;
+    flex-direction: column;
+    height: 100dvh;
+    justify-content: center;
 }
 
 /*NAME MAIN*/
-.NameMain {
+.Name {
     display: grid;
-    grid-template-columns: 20% 100%;
-    align-items: end;
+    grid-template-columns: 1fr;
+    justify-items: center;
     height: fit-content;
-    padding-left: 3rem;
+
+}
+
+.FirstName {
+    color: #339E76;
+    padding-bottom: 1rem;
 }
 
 .Description {
     display: grid;
+    justify-items: center;
+    padding-bottom: 1rem;
 }
 
 .LinkMain{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding-right: 3rem;
-}
 
-.LinkMain > ol {
-    list-style-type: none;
-    padding-left: 0;
-    padding-right: 2rem;
 }
 
 .LinkMain > a > img {
     width: max(2.5rem);
-    padding: .25rem
+    padding: .25rem;
+    filter: brightness(0) invert(1);
 }

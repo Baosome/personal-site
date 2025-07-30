@@ -25,7 +25,7 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #F2F2F2;
+    background: linear-gradient(to bottom, #282828, #1A1A1A);
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -42,19 +42,19 @@ h1 {
 
 h2 {
     font-family: "Action Man Bold";
-    color: #3E3E3E;
+    color: #FFFFFF;
     margin: 0 0;
 }
 
 h3 {
     font-family: "Action Man";
-    color: #3E3E3E;
+    color: #FFFFFF;
     margin: 0 0;
 }
 h4 {
     font-weight: 300;
     font-family: "Action Man";
-    color: #3E3E3E;
+    color: #FFFFFF;
     margin: 0 0;
 }
 
@@ -62,7 +62,18 @@ h4 {
     display: flex;
     justify-content: space-between;
     position: sticky;
+    z-index: 1000;
+    top: 0;
     height: min(5rem);
+    opacity: 0;
+    animation: nav-fade-in linear forwards;
+    animation-timeline: view();
+    animation-range: 110vh 130vh;
+
+}
+
+@keyframes nav-fade-in {
+    to {opacity: 1}
 }
 
 a {
@@ -72,12 +83,13 @@ a {
 .NavBar > div > a {
     font-size: 2rem;
     font-family: "Action Man Bold";
-    color: #3E3E3E;
+    color: #FFFFFF;
     transition: .125s ease-out;
 }
 
 .NavBar > div > a:hover {
     font-family: "Action Man Shaded";
+    color: #339E76;
 }
 
 /*button {*/

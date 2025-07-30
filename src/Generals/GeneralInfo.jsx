@@ -5,15 +5,13 @@ import githubLogo from '../assets/github.svg'
 import mailLogo from '../assets/mail.svg'
 
 function GeneralInfo() {
-
     return (
         <>
             <section id = "GeneralInfo">
                 <div className="GeneralInfoMain">
-                    <div className="NameMain">
-                        <h2>Huy-</h2>
-                        <h1>Bao</h1>
-                        <div><h2>Trang</h2></div>
+                    <div className="Name">
+                        <h2>Hello my name is</h2>
+                        <h1 className="FirstName">Bao</h1>
                     </div>
                     <div className="Description">
                         <h3>Software Engineer | Cyber Analysis</h3>
@@ -25,11 +23,7 @@ function GeneralInfo() {
                         <a href=""><img src={githubLogo} alt=""/></a>
                         <a href=""><img src={mailLogo} alt=""/></a>
                     </div>
-                    {/*<div className="PhotoMain">*/}
-                    {/*    <img src="" alt="Photo"/>*/}
-                    {/*</div>*/}
                 </div>
-                <hr/>
             </section>
         </>
     )

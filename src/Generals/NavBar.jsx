@@ -6,8 +6,8 @@ function NavBar() {
     return (
         <>
             <div className="NavBar">
-                <div><a href="/public" className="HomeBtn">.HOME()</a></div>
-                <div><a href="/public" className="HomeBtn">.RESUME()</a></div>
+                <div><a href="/" className="HomeBtn">.HOME()</a></div>
+                <div><a href="/" className="HomeBtn">.RESUME()</a></div>
 
             </div>
         </>
