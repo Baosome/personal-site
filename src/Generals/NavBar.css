@@ -64,11 +64,16 @@ h4 {
     position: sticky;
     z-index: 1000;
     top: 0;
-    height: min(5rem);
+    height: min(3rem);
     opacity: 0;
     animation: nav-fade-in linear forwards;
     animation-timeline: view();
     animation-range: 110vh 130vh;
+    background-color: #1A1A1A;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    text-align: center;
 
 }
 
