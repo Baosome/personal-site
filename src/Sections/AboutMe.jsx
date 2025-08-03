@@ -1,5 +1,24 @@
 import "./AboutMe.css"
 import Cards from "../AdditionalComponents/Cards/Cards.jsx"
+import cplus from "../assets/languages-svg/Cplusplus2.svg"
+import css from "../assets/languages-svg/css.svg"
+import htmlsvg from "../assets/languages-svg/html.svg"
+import java from "../assets/languages-svg/java.svg"
+import lua from "../assets/languages-svg/lua.svg"
+import javascript from "../assets/languages-svg/javascript.svg"
+import python from "../assets/languages-svg/python.svg"
+import AWS from "../assets/framework-svg/aw.svg"
+import Jira from "../assets/framework-svg/jira.svg"
+import Vite from "../assets/framework-svg/vite.svg"
+import Docker from "../assets/framework-svg/docker.svg"
+import Springboot from "../assets/framework-svg/springboot.svg"
+import reactsvg from "../assets/framework-svg/react.svg"
+import tailwind from "../assets/framework-svg/tailwind.svg"
+import bootstrap from "../assets/framework-svg/bootstrap.svg"
+import intellij from "../assets/framework-svg/intellij.svg"
+import vscode from "../assets/framework-svg/vs-code.svg"
+
+
 
 
 function AboutMe() {
@@ -17,15 +36,31 @@ function AboutMe() {
                             user-friendly, and impactful</p>
                         <div className={"CardsGroup"}>
                             <div className={"CardsHero"}>
-                                <Cards text={"C++"} ></Cards>
-                                <Cards text={"Java"} ></Cards>
-                                <Cards text={"Lua"} ></Cards>
+                                <Cards text={"C++"} iconSrc={cplus} ></Cards>
+                                <Cards text={"Java"} iconSrc={java} ></Cards>
+                                <Cards text={"Lua"} iconSrc={lua}></Cards>
                             </div>
                             <div className={"CardsHero"}>
-                                <Cards text={"Python"} ></Cards>
-                                <Cards text={"JavaScript"} ></Cards>
-                                <Cards text={"HTML"} ></Cards>
-                                <Cards text={"CSS"} ></Cards>
+                                <Cards text={"Python"} iconSrc={python}></Cards>
+                                <Cards text={"JavaScript"} iconSrc={javascript} ></Cards>
+                                <Cards text={"HTML"} iconSrc={htmlsvg}></Cards>
+                                <Cards text={"CSS"} iconSrc={css} ></Cards>
+                            </div>
+                            <div className={"CardsHero"}>
+                                <Cards text={"AWS"} iconSrc={AWS}></Cards>
+                                <Cards text={"Jira"} iconSrc={Jira} ></Cards>
+                                <Cards text={"Vite"} iconSrc={Vite}></Cards>
+                                <Cards text={"Docker"} iconSrc={Docker} ></Cards>
+                            </div>
+                            <div className={"CardsHero"}>
+                                <Cards text={"Spring Boot"} iconSrc={Springboot}></Cards>
+                                <Cards text={"React"} iconSrc={reactsvg} ></Cards>
+                                <Cards text={"Tailwind"} iconSrc={tailwind}></Cards>
+                                <Cards text={"Bootstrap"} iconSrc={bootstrap} ></Cards>
+                            </div>
+                            <div className={"CardsHero"}>
+                                <Cards text={"IntelliJ"} iconSrc={intellij}></Cards>
+                                <Cards text={"Vs Code"} iconSrc={vscode} ></Cards>
                             </div>
                         </div>
                     </div>
@@ -34,5 +69,6 @@ function AboutMe() {
         </>
     )
 }
+
 
 export default AboutMe

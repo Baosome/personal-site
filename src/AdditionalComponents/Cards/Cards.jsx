@@ -5,7 +5,7 @@ function Cards({iconSrc, text}) {
         <>
             <div className="Card">
                 <div>
-                    {iconSrc}
+                    <img src={iconSrc} alt=""/>
                     <h3 className="card-title">{text}</h3>
                 </div>
             </div>

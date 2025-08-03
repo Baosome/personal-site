@@ -1,7 +1,7 @@
 .Card{
     display: flex;
     flex-direction: column;
-    align-items: center;
+
     justify-content: center;
     height: 150px;
     width: 100px;
@@ -11,9 +11,14 @@
 
 
     h3 {
-
         color: #282828;
         text-wrap: wrap;
     }
 
 }
+
+.Card:hover{
+    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.25), 10px 10px 20px rgba(255, 255, 255, 0.15);
+
+}
+
