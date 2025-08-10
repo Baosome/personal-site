@@ -3,16 +3,22 @@
     flex-direction: column;
 
     justify-content: center;
-    height: 150px;
-    width: 100px;
+    height: 100px;
+    width: 75px;
     background: linear-gradient(to bottom, #CCCCCC, #FFFFFF);
-    border-radius: 40px;
+    border-radius: 15px;
     text-align: center;
 
 
     h3 {
         color: #282828;
         text-wrap: wrap;
+        font-size: 1.1rem;
+    }
+
+    img{
+        width: 45px;
+        height: 45px;
     }
 
 }

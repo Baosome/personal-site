@@ -42,7 +42,7 @@ function AboutMe() {
                             </div>
                             <div className={"CardsHero"}>
                                 <Cards text={"Python"} iconSrc={python}></Cards>
-                                <Cards text={"JavaScript"} iconSrc={javascript} ></Cards>
+                                <Cards text={"Java Script"} iconSrc={javascript} ></Cards>
                                 <Cards text={"HTML"} iconSrc={htmlsvg}></Cards>
                                 <Cards text={"CSS"} iconSrc={css} ></Cards>
                             </div>
@@ -56,7 +56,7 @@ function AboutMe() {
                                 <Cards text={"Spring Boot"} iconSrc={Springboot}></Cards>
                                 <Cards text={"React"} iconSrc={reactsvg} ></Cards>
                                 <Cards text={"Tailwind"} iconSrc={tailwind}></Cards>
-                                <Cards text={"Bootstrap"} iconSrc={bootstrap} ></Cards>
+                                <Cards text={"Boot strap"} iconSrc={bootstrap} ></Cards>
                             </div>
                             <div className={"CardsHero"}>
                                 <Cards text={"IntelliJ"} iconSrc={intellij}></Cards>
