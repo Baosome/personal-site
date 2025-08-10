@@ -19,8 +19,6 @@ import intellij from "../assets/framework-svg/intellij.svg"
 import vscode from "../assets/framework-svg/vs-code.svg"
 
 
-
-
 function AboutMe() {
     return (
         <>

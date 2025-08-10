@@ -1,0 +1,13 @@
+.Life{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+
+}
+
+.Life:hover{
+
+
+}
+
