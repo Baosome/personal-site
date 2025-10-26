@@ -1,0 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #111827; /* bg-gray-900 */
+  overflow-x: hidden;
+}
