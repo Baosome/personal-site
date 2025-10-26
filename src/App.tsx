@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import Header from './components/Header';
+import Header from './components/Header'
 import Hero from './components/Hero';
 import Skills from './components/Skills';
-import Experience from './components/Experience';
+import Experience from './components/Experiences';
 import Projects from './components/Projects';
 import Certifications from './components/Certifications';
 import Footer from './components/Footer';
