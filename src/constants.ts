@@ -150,7 +150,25 @@ export const PROJECTS: Project[] = [
         "Integrated a simple caching mechanism to minimize redundant API calls and speed up response times."
     ],
     technologies: ['Java', 'Spring Boot', 'Riot Games API', 'RESTful API', 'Bootstrap'],
-  }
+  },
+  {
+  title: 'AI Number Guessing Game',
+  duration: 'Winter 2025', 
+  description: [
+    'Developed a cross-platform mobile game using React Native and Expo where an AI uses logic to guess the user’s secret number.',
+    'Implemented a binary search algorithm to ensure the AI makes optimal guesses based on real-time user feedback.',
+    'Designed a responsive, multi-screen UI featuring custom components and gradient styling.',
+    'Managed complex game states and guess history tracking using React Hooks and TypeScript.'
+  ],
+  details: [
+    "Built a mobile application that features an interactive AI opponent capable of narrowing down numerical ranges through dynamic boundary adjustments.",
+    "Leveraged Expo Router for seamless file-based navigation between the Start, Game, and Game Over screens.",
+    "Engineered reusable UI components including custom buttons, cards, and containers to maintain a consistent design language and clean code architecture.",
+    "Optimized performance for guess history tracking by utilizing FlatList for efficient rendering of long lists on mobile devices.",
+    "Ensured a high-quality user experience with input validation, native alerts, and SafeAreaView for compatibility across various iOS and Android screen sizes."
+  ],
+  technologies: ['React Native', 'Expo', 'TypeScript', 'Expo Router', 'JavaScript'],
+}
 ];
 
 export const CERTIFICATIONS: Certification[] = [
@@ -162,22 +180,22 @@ export const CERTIFICATIONS: Certification[] = [
         description: 'Establishes the core knowledge required of any cybersecurity role and provides a springboard to intermediate-level cybersecurity jobs.',
         progress: 65,
     },
-    {
-        name: 'Cisco Certified Network Professional',
-        acronym: 'CCNP',
-        status: CertificationStatus.Planned,
-        timeline: 'After SEC+',
-        description: 'A professional-level certification for those who work with Cisco networking solutions. Focus on enterprise networking.',
-        progress: 5,
-    },
-    {
-        name: 'Certified Information Systems Security Professional',
-        acronym: 'CISSP',
-        status: CertificationStatus.Planned,
-        timeline: 'Requires 2 more years of experience',
-        description: 'A globally recognized certification in the field of information security for experienced security practitioners, managers and executives.',
-        progress: 10,
-    }
+    // {
+    //     name: 'Cisco Certified Network Professional',
+    //     acronym: 'CCNP',
+    //     status: CertificationStatus.Planned,
+    //     timeline: 'After SEC+',
+    //     description: 'A professional-level certification for those who work with Cisco networking solutions. Focus on enterprise networking.',
+    //     progress: 5,
+    // },
+    // {
+    //     name: 'Certified Information Systems Security Professional',
+    //     acronym: 'CISSP',
+    //     status: CertificationStatus.Planned,
+    //     timeline: 'Requires 2 more years of experience',
+    //     description: 'A globally recognized certification in the field of information security for experienced security practitioners, managers and executives.',
+    //     progress: 10,
+    // }
 ];
 
 // FIX: Replaced JSX syntax with React.createElement to be compatible with .ts files.
