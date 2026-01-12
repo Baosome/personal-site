@@ -35,11 +35,10 @@ const Skills: React.FC = () => {
   const TabButton: React.FC<{ category: Category; label: string }> = ({ category, label }) => (
     <button
       onClick={() => setActiveTab(category)}
-      className={`px-6 py-2 text-sm md:text-base font-semibold transition-colors duration-300 focus:outline-none ${
-        activeTab === category
+      className={`px-6 py-2 text-sm md:text-base font-semibold transition-colors duration-300 focus:outline-none ${activeTab === category
           ? 'text-emerald-400 border-b-2 border-emerald-400'
           : 'text-gray-400 hover:text-white'
-      }`}
+        }`}
     >
       {label}
     </button>
@@ -54,7 +53,7 @@ const Skills: React.FC = () => {
             <TabButton category="Software" label="Software Engineering" />
             <TabButton category="Cybersecurity" label="Cybersecurity" />
           </div>
-          <div key={activeTab} className="flex flex-wrap justify-center items-start gap-4 md:gap-6 md:min-h-[320px]">
+          <div key={activeTab} className="flex flex-wrap justify-center items-start gap-4 md:gap-6 min-h-[850px] md:min-h-[650px]">
             {filteredSkills.map((skill, index) => (
               <div
                 key={skill.name}

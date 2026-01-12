@@ -54,13 +54,13 @@ const Projects: React.FC = () => {
       <section id="projects" ref={sectionRef} className="py-20 bg-gray-800/50">
         <div className={`container mx-auto px-4 transition-all duration-1000 ease-out ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
           <h2 className="text-4xl font-bold text-center mb-12 text-white">Projects</h2>
-          <div className="max-w-3xl mx-auto bg-gray-800 rounded-lg shadow-lg overflow-hidden border border-gray-700 flex flex-col min-h-[580px] md:min-h-[550px] transform transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-emerald-500/20">
-            <div className={`p-8 transition-opacity duration-300 ease-in-out flex flex-col min-h-[500px] md:min-h-[480px] ${isFading ? 'opacity-0' : 'opacity-100'}`}>
+          <div className="max-w-3xl mx-auto bg-gray-800 rounded-lg shadow-lg overflow-hidden border border-gray-700 flex flex-col min-h-[680px] md:min-h-[650px] transform transition-all duration-300 ease-in-out hover:scale-[1.02] hover:shadow-emerald-500/20">
+            <div className={`p-8 transition-opacity duration-300 ease-in-out flex flex-col min-h-[550px] md:min-h-[580px] ${isFading ? 'opacity-0' : 'opacity-100'}`}>
               <div className="flex justify-between items-start mb-4">
                 <h3 className="text-2xl font-bold text-emerald-400">{currentProject.title}</h3>
                 <p className="text-gray-400 text-right shrink-0 ml-4">{currentProject.duration}</p>
               </div>
-              
+
               <div className="flex-grow">
                 <ul className="list-disc list-inside text-gray-300 space-y-2">
                   {currentProject.description.map((item, index) => (
